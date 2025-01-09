@@ -1,0 +1,781 @@
+[
+  { "value": "", "text": "Choose", "cities": [] },
+  {
+    "value": "2",
+    "text": "AR",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "3",
+    "text": "AZ",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1443",
+        "text": "2299 W BROADWAY RD PHOENIX, AZ, 85041 / 2299 W BROADWAY RD PHOENIX, AZ, 85041",
+        "price": "PORT CA : 2.260 $"
+      }
+    ]
+  },
+  {
+    "value": "4",
+    "text": "CA",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1063",
+        "text": "11399 SANTA FE AVE E HESPERIA, CA, 92345 / 11399 SANTA FE AVE E HESPERIA, CA, 92345",
+        "price": "PORT CA : 2.130 $"
+      },
+      {
+        "value": "1104",
+        "text": "13901 SAN BERNARDINO AVE FONTANA, CA, 92335 / 13901 SAN BERNARDINO AVE FONTANA, CA, 92335",
+        "price": "PORT CA : 2.095 $"
+      },
+      {
+        "value": "1424",
+        "text": "14320 SOLEDAD CANYON RD SANTA CLARITA, CA, 91387 / 14320 SOLEDAD CANYON RD SANTA CLARITA, CA, 91387",
+        "price": "PORT CA : 2.120 $"
+      },
+      {
+        "value": "1444",
+        "text": "2961 EAST LA JOLLA STREET ANAHEIM, CA, 92806 / 2961 EAST LA JOLLA STREET ANAHEIM, CA, 92806",
+        "price": "PORT CA : 2.110 $"
+      },
+      {
+        "value": "1112",
+        "text": "3600 PYRITE ST JURUPA VALLEY, CA, 92509 / 3600 PYRITE ST JURUPA VALLEY, CA, 92509",
+        "price": "PORT CA : 2.100 $"
+      },
+      {
+        "value": "1307",
+        "text": "775 HARLEY KNOX BLVD PERRIS, CA, 92571 / 775 HARLEY KNOX BLVD PERRIS, CA, 92571",
+        "price": "PORT CA : 2.180 $"
+      },
+      {
+        "value": "1432",
+        "text": "At the North Hollywood (CA) branch 7245 LAUREL CANYON BLVD LOS ANGELES, CA, 91605 / At the North Hollywood (CA) branch 7245 LAUREL CANYON BLVD LOS ANGELES, CA, 91605",
+        "price": "PORT CA : 2.110 $"
+      },
+      {
+        "value": "1008",
+        "text": "NoHo 3 BURBANK, CA, 91505 / NoHo 3 BURBANK, CA, 91505",
+        "price": "PORT CA : 2.075 $"
+      }
+    ]
+  },
+  {
+    "value": "5",
+    "text": "CO",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1068",
+        "text": "1280 HIGHWAY 50 DELTA, CO, 81416 / 1280 HIGHWAY 50 DELTA, CO, 81416",
+        "price": "PORT TX : 2.270 $"
+      },
+      {
+        "value": "1043",
+        "text": "COLFAX MOTORS - offiste DENVER, CO, 80220 / COLFAX MOTORS - offiste DENVER, CO, 80220",
+        "price": "PORT TX : 2.190 $"
+      }
+    ]
+  },
+  {
+    "value": "6",
+    "text": "CT",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "46",
+    "text": "DE",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1094",
+        "text": "DELMAR, DE, 19940 / DELMAR, DE, 19940",
+        "price": "PORT NJ : 1.615 $"
+      }
+    ]
+  },
+  {
+    "value": "8",
+    "text": "FL",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1025",
+        "text": "10950 NORMANDY BLVD JACKSONVILLE, FL, 32221 / 10950 NORMANDY BLVD JACKSONVILLE, FL, 32221",
+        "price": "PORT GA : 1.570 $"
+      },
+      {
+        "value": "1053",
+        "text": "1857 US-331 N DEFUNIAK SPRINGS, FL, 32433 / 1857 US-331 N DEFUNIAK SPRINGS, FL, 32433",
+        "price": "PORT FL : 1.860 $"
+      },
+      {
+        "value": "1028",
+        "text": "3005 CR 835 CLEWISTON, FL, 33440 / 3005 CR 835 CLEWISTON, FL, 33440",
+        "price": "PORT FL : 1.820 $"
+      },
+      {
+        "value": "1109",
+        "text": "6275 SW 196TH AVE FORT LAUDERDALE, FL, 33332 / 6275 SW 196TH AVE FORT LAUDERDALE, FL, 33332",
+        "price": "PORT FL : 1.620 $"
+      },
+      {
+        "value": "1027",
+        "text": "6522 OLD US-41 A TAMPA, FL, 33619 / 6522 OLD US-41 A TAMPA, FL, 33619",
+        "price": "PORT FL : 1.795 $"
+      },
+      {
+        "value": "1022",
+        "text": "9801 BOGGY CREEK RD ORLANDO, FL, 32824 / 9801 BOGGY CREEK RD ORLANDO, FL, 32824",
+        "price": "PORT FL : 1.775 $"
+      },
+      {
+        "value": "1009",
+        "text": "ADESA-Off Site 11700 NEW KINGS ROAD JACKSONVILLE, FL, 32219 / ADESA-Off Site 11700 NEW KINGS ROAD JACKSONVILLE, FL, 32219",
+        "price": "PORT GA : 1.570 $"
+      }
+    ]
+  },
+  {
+    "value": "9",
+    "text": "GA",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1044",
+        "text": "Cochran, GA COCHRAN, GA, 31014 / Cochran, GA COCHRAN, GA, 31014",
+        "price": "PORT GA : 1.570 $"
+      },
+      {
+        "value": "1007",
+        "text": "Contact IAA branch MACON, GA, 31204 / Contact IAA branch MACON, GA, 31204",
+        "price": "PORT GA : 1.580 $"
+      },
+      {
+        "value": "1065",
+        "text": "Offsite - Lilburn GA 30047 LILBURN, GA, 30047 / Offsite - Lilburn GA 30047 LILBURN, GA, 30047",
+        "price": "PORT GA : 1.640 $"
+      }
+    ]
+  },
+  {
+    "value": "11",
+    "text": "IA",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1042",
+        "text": "AA Des Moines 1000 ARMSTRONG DRIVE DE SOTO, IA, 50069 / AA Des Moines 1000 ARMSTRONG DRIVE DE SOTO, IA, 50069",
+        "price": "PORT NJ : 1.920 $"
+      },
+      {
+        "value": "1050",
+        "text": "IAA Des Moines Offsite 3277 UTE AVE WAUKEE, IA, 50263 / IAA Des Moines Offsite 3277 UTE AVE WAUKEE, IA, 50263",
+        "price": "PORT NJ : 1.920 $"
+      }
+    ]
+  },
+  {
+    "value": "13",
+    "text": "IL",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1056",
+        "text": "IAA St. Louis Off-Site CENTREVILLE, IL, 62207 / IAA St. Louis Off-Site CENTREVILLE, IL, 62207",
+        "price": "PORT NJ : 1.835 $"
+      },
+      {
+        "value": "1103",
+        "text": "MIDLOTHIAN, IL, 60445 / MIDLOTHIAN, IL, 60445",
+        "price": "PORT NJ : 1.790 $"
+      },
+      {
+        "value": "1058",
+        "text": "ONLINE EXCLUSIVE – ENTERPRISE 2040 E. ALGONQUIN RD SCHAUMBURG, IL, 60173 / ONLINE EXCLUSIVE – ENTERPRISE 2040 E. ALGONQUIN RD SCHAUMBURG, IL, 60173",
+        "price": "PORT NJ : 1.800 $"
+      }
+    ]
+  },
+  {
+    "value": "14",
+    "text": "IN",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1034",
+        "text": "IAA Indy Minnesota Street INDIANAPOLIS, IN, 46241 / IAA Indy Minnesota Street INDIANAPOLIS, IN, 46241",
+        "price": "PORT NJ : 1.770 $"
+      }
+    ]
+  },
+  {
+    "value": "16",
+    "text": "KY",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1026",
+        "text": "1825 SOUTH PRESTON HIGHWAY SHEPHERDSVILLE, KY, 40165 / 1825 SOUTH PRESTON HIGHWAY SHEPHERDSVILLE, KY, 40165",
+        "price": "PORT GA : 1.820 $"
+      },
+      {
+        "value": "1054",
+        "text": "710 WOODFORD AVENUE BOWLING GREEN, KY, 42101 / 710 WOODFORD AVENUE BOWLING GREEN, KY, 42101",
+        "price": "PORT GA : 1.820 $"
+      }
+    ]
+  },
+  {
+    "value": "17",
+    "text": "LA",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1078",
+        "text": "301 MALAPART RD LAFAYETTE, LA, 70507 / 301 MALAPART RD LAFAYETTE, LA, 70507",
+        "price": "PORT TX : 1.925 $"
+      },
+      {
+        "value": "1000",
+        "text": "415 HWY 93 NORTH SCOTT, LA, 70583 / 415 HWY 93 NORTH SCOTT, LA, 70583",
+        "price": "PORT TX : 1.920 $"
+      },
+      {
+        "value": "1073",
+        "text": "IAA CAT Baton Rouge - Carville 5978 HIGHWAY 75 CARVILLE, LA, 70721 / IAA CAT Baton Rouge - Carville 5978 HIGHWAY 75 CARVILLE, LA, 70721",
+        "price": "PORT TX : 1.950 $"
+      },
+      {
+        "value": "1322",
+        "text": "Jennings Off-Site #760 JENNINGS, LA, 70546 / Jennings Off-Site #760 JENNINGS, LA, 70546",
+        "price": "PORT TX : 1.890 $"
+      }
+    ]
+  },
+  {
+    "value": "18",
+    "text": "MA",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1067",
+        "text": "Insurance Auto Auctions - Templeton2 411 BALDWINVILLE RD TEMPLETON, MA, 01468 / Insurance Auto Auctions - Templeton2 411 BALDWINVILLE RD TEMPLETON, MA, 01468",
+        "price": "PORT NJ : 1.615 $"
+      },
+      {
+        "value": "1033",
+        "text": "LANCASTER, MA, 01523 / LANCASTER, MA, 01523",
+        "price": "PORT NJ : 1.620 $"
+      }
+    ]
+  },
+  {
+    "value": "19",
+    "text": "MD",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1442",
+        "text": "7131 VIRGINIA MANOR CT LAUREL, MD, 20707 / 7131 VIRGINIA MANOR CT LAUREL, MD, 20707",
+        "price": "PORT NJ : 1.600 $"
+      },
+      {
+        "value": "1002",
+        "text": "White Plains Aux Lot 4840 CRAIN HIGHWAY WHITE PLAINS, MD, 20695 / White Plains Aux Lot 4840 CRAIN HIGHWAY WHITE PLAINS, MD, 20695",
+        "price": "PORT NJ : 1.635 $"
+      }
+    ]
+  },
+  {
+    "value": "20",
+    "text": "ME",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1060",
+        "text": "COPART 40 HOLMES ROAD SCARBOROUGH ME 04074 / COPART 40 HOLMES ROAD SCARBOROUGH ME 04074",
+        "price": "PORT NJ : 1.720 $"
+      }
+    ]
+  },
+  {
+    "value": "21",
+    "text": "MI",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "999",
+        "text": "ADESA Great Lakes 573 SOUTH TUSCOLA ROAD BAY CITY, MI, 48708 / ADESA Great Lakes 573 SOUTH TUSCOLA ROAD BAY CITY, MI, 48708",
+        "price": "PORT NJ : 1.970 $"
+      },
+      {
+        "value": "1039",
+        "text": "Detroit B & G Lot 8100 LYNCH RD DETROIT, MI, 48234 / Detroit B & G Lot 8100 LYNCH RD DETROIT, MI, 48234",
+        "price": "PORT NJ : 1.820 $"
+      },
+      {
+        "value": "998",
+        "text": "Detroit B & G Lot-8100 lynch rd 9100 LYNCH RD. DETROIT, MI, 48234 / Detroit B & G Lot-8100 lynch rd 9100 LYNCH RD. DETROIT, MI, 48234",
+        "price": "PORT NJ : 1.820 $"
+      },
+      {
+        "value": "1006",
+        "text": "Detroit B & G Lot-8100 lynch rd 9100 LYNCH RD. DETROIT, MI, 48234 / Detroit B & G Lot-8100 lynch rd 9100 LYNCH RD. DETROIT, MI, 48234",
+        "price": "PORT NJ : 1.820 $"
+      },
+      {
+        "value": "1036",
+        "text": "Grand Rapids Reed & Hoppes 2661 EAST GRAND RIVER AVE. PORTLAND, MI, 48875 / Grand Rapids Reed & Hoppes 2661 EAST GRAND RIVER AVE. PORTLAND, MI, 48875",
+        "price": "PORT NJ : 1.820 $"
+      }
+    ]
+  },
+  {
+    "value": "22",
+    "text": "MN",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1031",
+        "text": "13289 25TH AVE NW RICE, MN, 56367 / 13289 25TH AVE NW RICE, MN, 56367",
+        "price": "PORT NJ : 1.920 $"
+      },
+      {
+        "value": "1097",
+        "text": "1336 JACKSON ST SAINT PAUL, MN, 55117 / 1336 JACKSON ST SAINT PAUL, MN, 55117",
+        "price": "PORT NJ : 1.920 $"
+      },
+      {
+        "value": "1302",
+        "text": "2975 PARTRIDGE RD ROSEVILLE, MN, 55113 / 2975 PARTRIDGE RD ROSEVILLE, MN, 55113",
+        "price": "PORT NJ : 1.920 $"
+      },
+      {
+        "value": "1030",
+        "text": "3300 150TH STREET EAST FARIBAULT, MN, 55021 / 3300 150TH STREET EAST FARIBAULT, MN, 55021",
+        "price": "PORT NJ : 1.920 $"
+      },
+      {
+        "value": "1035",
+        "text": "IAA RED WING RED WING, MN, 55066 / IAA RED WING RED WING, MN, 55066",
+        "price": "PORT NJ : 1.920 $"
+      }
+    ]
+  },
+  {
+    "value": "23",
+    "text": "MO",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "24",
+    "text": "MS",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1040",
+        "text": "100 BEASLEY RD JACKSON, MS, 39206 / 100 BEASLEY RD JACKSON, MS, 39206",
+        "price": "PORT NJ : 1.905 $PORT GA : 1.745 $"
+      },
+      {
+        "value": "1003",
+        "text": "IAA Byram 7670 SIWELL ROAD BYRAM, MS, 39272 / IAA Byram 7670 SIWELL ROAD BYRAM, MS, 39272",
+        "price": "PORT NJ : 1.905 $PORT TX : 1.990 $PORT GA : 1.745 $"
+      }
+    ]
+  },
+  {
+    "value": "25",
+    "text": "MT",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "26",
+    "text": "NC",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1301",
+        "text": "6500 ROZZELLES FERRY RD CHARLOTTE, NC, 28214 / 6500 ROZZELLES FERRY RD CHARLOTTE, NC, 28214",
+        "price": "PORT GA : 1.640 $"
+      },
+      {
+        "value": "1312",
+        "text": "DUNN - 747 4129 NC-242 DUNN, NC, 28334 / DUNN - 747 4129 NC-242 DUNN, NC, 28334",
+        "price": "PORT GA : 1.670 $"
+      }
+    ]
+  },
+  {
+    "value": "27",
+    "text": "NE",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "44",
+    "text": "NH",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1032",
+        "text": "75 LOWELL RD SALEM, NH, 03079 / 75 LOWELL RD SALEM, NH, 03079",
+        "price": "PORT NJ : 1.630 $"
+      },
+      {
+        "value": "1005",
+        "text": "Salem 199 LAWRENCE RD SALEM, NH, 03079 / Salem 199 LAWRENCE RD SALEM, NH, 03079",
+        "price": "PORT NJ : 1.630 $"
+      }
+    ]
+  },
+  {
+    "value": "28",
+    "text": "NJ",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1072",
+        "text": "230 PENSION RD MANALAPAN, NJ, 07726 / 230 PENSION RD MANALAPAN, NJ, 07726",
+        "price": "PORT NJ : 1.470 $"
+      },
+      {
+        "value": "1066",
+        "text": "At the Central New Jersey (NJ) branch 426 TEXAS ROAD MORGANVILLE, NJ, 07751 / At the Central New Jersey (NJ) branch 426 TEXAS ROAD MORGANVILLE, NJ, 07751",
+        "price": "PORT NJ : 1.410 $"
+      },
+      {
+        "value": "1062",
+        "text": "Englishtown CAT Yard #611 230 PENSION RD ENGLISHTOWN, NJ, 07726 / Englishtown CAT Yard #611 230 PENSION RD ENGLISHTOWN, NJ, 07726",
+        "price": "PORT NJ : 1.470 $"
+      },
+      {
+        "value": "1069",
+        "text": "PARKWAY AUTO 578 MEMORIAL PKWY PHILLIPSBURG, NJ, 08865 / PARKWAY AUTO 578 MEMORIAL PKWY PHILLIPSBURG, NJ, 08865",
+        "price": "PORT NJ : 1.450 $"
+      }
+    ]
+  },
+  {
+    "value": "29",
+    "text": "NM",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "31",
+    "text": "NY",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1093",
+        "text": "21 RICE CT MEDFORD, NY, 11763 / 21 RICE CT MEDFORD, NY, 11763",
+        "price": "PORT NJ : 1.520 $"
+      },
+      {
+        "value": "1055",
+        "text": "71 PECONIC AVE MEDFORD, NY, 11763 / 71 PECONIC AVE MEDFORD, NY, 11763",
+        "price": "PORT NJ : 1.520 $"
+      },
+      {
+        "value": "1071",
+        "text": "Drive Auto Sales 656 PINE AIRE DRIVE BAYSHORE, NY, 11706 / Drive Auto Sales 656 PINE AIRE DRIVE BAYSHORE, NY, 11706",
+        "price": "PORT NJ : 1.460 $"
+      },
+      {
+        "value": "1051",
+        "text": "HL2 EAST ROCHESTER, NY, 14445 / HL2 EAST ROCHESTER, NY, 14445",
+        "price": "PORT NJ : 1.630 $"
+      },
+      {
+        "value": "1468",
+        "text": "Monticello-672 MONTICELLO, NY, 12701 / Monticello-672 MONTICELLO, NY, 12701",
+        "price": "PORT NJ : 1.570 $"
+      }
+    ]
+  },
+  {
+    "value": "32",
+    "text": "OH",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1001",
+        "text": "AA Stimmel Road 420 STIMMEL ROAD COLUMBUS, OH, 43223 / AA Stimmel Road 420 STIMMEL ROAD COLUMBUS, OH, 43223",
+        "price": "PORT NJ : 1.720 $"
+      },
+      {
+        "value": "1045",
+        "text": "Amelia IAA Cinci-South 1736 LINDALE MT. HOLLY RD AMELIA, OH, 45102 / Amelia IAA Cinci-South 1736 LINDALE MT. HOLLY RD AMELIA, OH, 45102",
+        "price": "PORT NJ : 1.820 $"
+      },
+      {
+        "value": "1048",
+        "text": "At the Dayton (OH) branch 400 CHEROKEE DR DAYTON, OH, 45417 / At the Dayton (OH) branch 400 CHEROKEE DR DAYTON, OH, 45417",
+        "price": "PORT NJ : 1.820 $"
+      },
+      {
+        "value": "1077",
+        "text": "Offsite - Carrollton OH 44615 CARROLLTON, OH, 44615 / Offsite - Carrollton OH 44615 CARROLLTON, OH, 44615",
+        "price": "PORT NJ : 1.695 $"
+      },
+      {
+        "value": "1070",
+        "text": "Offsite - Cuyahoga Falls OH 44223 CUYAHOGA FALLS, OH, 44223 / Offsite - Cuyahoga Falls OH 44223 CUYAHOGA FALLS, OH, 44223",
+        "price": "PORT NJ : 1.695 $"
+      },
+      {
+        "value": "1057",
+        "text": "Offsite - Willoughby OH 44094 WILLOUGHBY, OH, 44094 / Offsite - Willoughby OH 44094 WILLOUGHBY, OH, 44094",
+        "price": "PORT NJ : 1.720 $"
+      },
+      {
+        "value": "1015",
+        "text": "Vermillion - North Ford Lot 8149 W. ERIE VERMILION, OH, 44089 / Vermillion - North Ford Lot 8149 W. ERIE VERMILION, OH, 44089",
+        "price": "PORT NJ : 1.720 $"
+      }
+    ]
+  },
+  {
+    "value": "34",
+    "text": "OR",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1095",
+        "text": "EUGENE, OR, 97402 / EUGENE, OR, 97402",
+        "price": "PORT CA : 2.570 $"
+      },
+      {
+        "value": "1038",
+        "text": "IAA St John Offiste 8524 N CRAWFORD AVE PORTLAND, OR, 97203 / IAA St John Offiste 8524 N CRAWFORD AVE PORTLAND, OR, 97203",
+        "price": "PORT CA : 2.570 $"
+      },
+      {
+        "value": "1101",
+        "text": "PORTLAND WEST 10498 N VANCOUVER WAY PORTLAND, OR, 97217 / PORTLAND WEST 10498 N VANCOUVER WAY PORTLAND, OR, 97217",
+        "price": "PORT CA : 2.570 $"
+      }
+    ]
+  },
+  {
+    "value": "35",
+    "text": "PA",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1064",
+        "text": "IAA Bridgeport - Philadelphia East 7777 STATE RD PHILADELPHIA, PA, 19136 / IAA Bridgeport - Philadelphia East 7777 STATE RD PHILADELPHIA, PA, 19136",
+        "price": "PORT NJ : 1.520 $"
+      },
+      {
+        "value": "1049",
+        "text": "R&J AUTOMOTIVE COMPANY LLC - Offsite ESSINGTON, PA, 19029 / R&J AUTOMOTIVE COMPANY LLC - Offsite ESSINGTON, PA, 19029",
+        "price": "PORT NJ : 1.530 $"
+      }
+    ]
+  },
+  {
+    "value": "36",
+    "text": "SC",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1096",
+        "text": "422 SCUFFLETOWN RD SIMPSONVILLE, SC, 29681 / 422 SCUFFLETOWN RD SIMPSONVILLE, SC, 29681",
+        "price": "PORT GA : 1.635 $"
+      },
+      {
+        "value": "1082",
+        "text": "Offsite - York NC 29745 YORK, SC, 29745 / Offsite - York NC 29745 YORK, SC, 29745",
+        "price": "PORT GA : 1.635 $"
+      }
+    ]
+  },
+  {
+    "value": "49",
+    "text": "SD",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1052",
+        "text": "ALAN'S AUTO RECYCLING 1800 SEGER DRIVE RAPID CITY SD 57701 / ALAN'S AUTO RECYCLING 1800 SEGER DRIVE RAPID CITY SD 57701",
+        "price": "PORT NJ : 2.270 $"
+      }
+    ]
+  },
+  {
+    "value": "37",
+    "text": "TN",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "38",
+    "text": "TX",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1017",
+        "text": "11022 MESA DRIVE HOUSTON, TX, 77078 / 11022 MESA DRIVE HOUSTON, TX, 77078",
+        "price": "PORT TX : 1.770 $"
+      },
+      {
+        "value": "1023",
+        "text": "1107 BROADWAY PASADENA, TX, 77506 / 1107 BROADWAY PASADENA, TX, 77506",
+        "price": "PORT TX : 1.700 $"
+      },
+      {
+        "value": "1014",
+        "text": "12100 WEST LITTLE YORK RD HOUSTON, TX, 77041 / 12100 WEST LITTLE YORK RD HOUSTON, TX, 77041",
+        "price": "PORT TX : 1.770 $"
+      },
+      {
+        "value": "1024",
+        "text": "1528 STATE HIGHWAY 71 COLUMBUS, TX, 78934 / 1528 STATE HIGHWAY 71 COLUMBUS, TX, 78934",
+        "price": "PORT TX : 1.825 $"
+      },
+      {
+        "value": "1029",
+        "text": "16602 E HARDY RD HOUSTON, TX, 77032 / 16602 E HARDY RD HOUSTON, TX, 77032",
+        "price": "PORT TX : 1.770 $"
+      },
+      {
+        "value": "1021",
+        "text": "18600 WILBER ROAD HAMSHIRE, TX, 77622 / 18600 WILBER ROAD HAMSHIRE, TX, 77622",
+        "price": "PORT TX : 1.745 $"
+      },
+      {
+        "value": "1500",
+        "text": "23010 FIREFLY RD FLORENCE, TX, 76527 / 23010 FIREFLY RD FLORENCE, TX, 76527",
+        "price": "PORT TX : 1.820 $"
+      },
+      {
+        "value": "1018",
+        "text": "5000 I-10 SEALY, TX, 77474 / 5000 I-10 SEALY, TX, 77474",
+        "price": "PORT TX : 1.770 $"
+      },
+      {
+        "value": "1020",
+        "text": "711 RANKIN ROAD HOUSTON, TX, 77073 / 711 RANKIN ROAD HOUSTON, TX, 77073",
+        "price": "PORT TX : 1.770 $"
+      },
+      {
+        "value": "1010",
+        "text": "8119 MILLER ROAD NO. 3 HOUSTON, TX, 77049 / 8119 MILLER ROAD NO. 3 HOUSTON, TX, 77049",
+        "price": "PORT TX : 1.705 $"
+      },
+      {
+        "value": "1402",
+        "text": "AUSTIN - IAA 2191 HIGHWAY 21 WEST DALE, TX, 78616 / AUSTIN - IAA 2191 HIGHWAY 21 WEST DALE, TX, 78616",
+        "price": "PORT TX : 1.945 $"
+      },
+      {
+        "value": "1013",
+        "text": "Beaumont Hwy_CAT Yard 17011 BEAUMONT HWY HOUSTON, TX, 77049 / Beaumont Hwy_CAT Yard 17011 BEAUMONT HWY HOUSTON, TX, 77049",
+        "price": "PORT TX : 1.720 $"
+      },
+      {
+        "value": "1019",
+        "text": "CAT Houston Oates Rd. 1 4605 OATES ROAD HOUSTON, TX, 77013 / CAT Houston Oates Rd. 1 4605 OATES ROAD HOUSTON, TX, 77013",
+        "price": "PORT TX : 1.770 $"
+      },
+      {
+        "value": "1016",
+        "text": "CAT YARD 3 7575 FM 2004 HITCHCOCK, TX, 77563 / CAT YARD 3 7575 FM 2004 HITCHCOCK, TX, 77563",
+        "price": "PORT TX : 1.740 $"
+      },
+      {
+        "value": "1012",
+        "text": "CAT YARD 5 12100 WEST LITTLE YORK RD HOUSTON, TX, 77041 / CAT YARD 5 12100 WEST LITTLE YORK RD HOUSTON, TX, 77041",
+        "price": "PORT TX : 1.770 $"
+      },
+      {
+        "value": "1011",
+        "text": "CAT YARD D 18100 US-59 BUSINESS NEW CANEY, TX, 77357 / CAT YARD D 18100 US-59 BUSINESS NEW CANEY, TX, 77357",
+        "price": "PORT TX : 1.740 $"
+      },
+      {
+        "value": "1047",
+        "text": "GRAND PRAIRIE, TX, 75050 / GRAND PRAIRIE, TX, 75050",
+        "price": "PORT TX : 1.940 $"
+      },
+      {
+        "value": "1075",
+        "text": "Offsite Offsite - Dallas TX 75229 DALLAS, TX, 75229 / Offsite Offsite - Dallas TX 75229 DALLAS, TX, 75229",
+        "price": "PORT TX : 1.945 $"
+      },
+      {
+        "value": "1004",
+        "text": "SAN ANTONIO-SOUTH 11275 SOUTH ZARZAMORA SAN ANTONIO, TX, 78224 / SAN ANTONIO-SOUTH 11275 SOUTH ZARZAMORA SAN ANTONIO, TX, 78224",
+        "price": "PORT TX : 1.930 $"
+      }
+    ]
+  },
+  {
+    "value": "40",
+    "text": "VA",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1479",
+        "text": "BRISTOL, VA, 24202 / BRISTOL, VA, 24202",
+        "price": "PORT NJ : 2.070 $"
+      },
+      {
+        "value": "1059",
+        "text": "Doswell - 711 DOSWELL, VA, 23047 / Doswell - 711 DOSWELL, VA, 23047",
+        "price": "PORT NJ : 1.655 $"
+      },
+      {
+        "value": "1061",
+        "text": "Montvale Yard #724 1576 QUARTERWOOD RD MONTVALE, VA, 24122 / Montvale Yard #724 1576 QUARTERWOOD RD MONTVALE, VA, 24122",
+        "price": "PORT NJ : 1.720 $"
+      }
+    ]
+  },
+  {
+    "value": "45",
+    "text": "VT",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "41",
+    "text": "WA",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1037",
+        "text": "IAA Puyallup 15801 110TH AVE E PUYALLUP, WA, 98374 / IAA Puyallup 15801 110TH AVE E PUYALLUP, WA, 98374",
+        "price": "PORT CA : 2.920 $PORT WA : 2.570 $"
+      },
+      {
+        "value": "1041",
+        "text": "IAA Puyallup 15801 110TH AVE E PUYALLUP, WA, 98374 / IAA Puyallup 15801 110TH AVE E PUYALLUP, WA, 98374",
+        "price": "PORT CA : 2.920 $PORT WA : 2.570 $"
+      },
+      {
+        "value": "1046",
+        "text": "IAA TUKWILA OFFSITE 8801 E MARGINAL WAY S TUKWILA, WA, 98108 / IAA TUKWILA OFFSITE 8801 E MARGINAL WAY S TUKWILA, WA, 98108",
+        "price": "PORT CA : 2.870 $"
+      },
+      {
+        "value": "1074",
+        "text": "Offsite Vancouver IAA Offsite VANCOUVER, WA, 98682 / Offsite Vancouver IAA Offsite VANCOUVER, WA, 98682",
+        "price": "PORT CA : 2.870 $PORT WA : 2.620 $"
+      },
+      {
+        "value": "1076",
+        "text": "Vancouver IAA offsite VANCOUVER, WA, 98682 / Vancouver IAA offsite VANCOUVER, WA, 98682",
+        "price": "PORT CA : 2.870 $PORT WA : 2.620 $"
+      }
+    ]
+  },
+  {
+    "value": "42",
+    "text": "WI",
+    "cities": [{ "value": "", "text": "No City found" }]
+  }
+]

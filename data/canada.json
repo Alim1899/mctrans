@@ -1,0 +1,98 @@
+[
+  { "value": "", "text": "Choose", "cities": [] },
+  {
+    "value": "61",
+    "text": "AB",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1083",
+        "text": "CALGARY / CALGARY",
+        "price": "PORT CAN : 3.170 $"
+      },
+      {
+        "value": "1084",
+        "text": "EDMONTON / EDMONTON",
+        "price": "PORT CAN : 3.170 $"
+      }
+    ]
+  },
+  {
+    "value": "69",
+    "text": "BC",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "70",
+    "text": "MB",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "63",
+    "text": "NB",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1090",
+        "text": "MONCTON / MONCTON",
+        "price": "PORT CAN : 2.470 $"
+      }
+    ]
+  },
+  {
+    "value": "68",
+    "text": "NF",
+    "cities": [{ "value": "", "text": "No City found" }]
+  },
+  {
+    "value": "62",
+    "text": "NS",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1085",
+        "text": "HALIFAX / HALIFAX",
+        "price": "PORT CAN : 2.445 $"
+      }
+    ]
+  },
+  {
+    "value": "65",
+    "text": "ON",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1552",
+        "text": "COOKSTOWN / COOKSTOWN",
+        "price": "PORT CAN : 2.420 $"
+      },
+      {
+        "value": "1089",
+        "text": "LONDON / LONDON",
+        "price": "PORT CAN : 2.270 $"
+      },
+      {
+        "value": "1088",
+        "text": "TORONTO / TORONTO",
+        "price": "PORT CAN : 2.370 $"
+      }
+    ]
+  },
+  {
+    "value": "64",
+    "text": "QC",
+    "cities": [
+      { "value": "", "text": "Choose" },
+      {
+        "value": "1087",
+        "text": "MONTREAL / MONTREAL",
+        "price": "PORT CAN : 1.830 $"
+      }
+    ]
+  },
+  {
+    "value": "67",
+    "text": "SK",
+    "cities": [{ "value": "", "text": "No City found" }]
+  }
+]

@@ -1,0 +1,8 @@
+.main{
+    height:521px ;
+    width: 80%;
+    max-width: 920px;
+    display: grid;
+    grid-template-columns: 42% 58%;
+    background-color: white;
+}
