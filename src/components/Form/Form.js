@@ -1,18 +1,82 @@
 import classes from "./Form.module.css";
 import logo from "../../assets/logo.png";
-function Form() {
-  const getFormattedDateTime = () => {
-    const now = new Date();
-    const day = String(now.getDate()).padStart(2, "0");
-    const month = String(now.getMonth() + 1).padStart(2, "0"); // Months are 0-indexed
-    const year = now.getFullYear();
-    const hours = String(now.getHours()).padStart(2, "0");
-    const minutes = String(now.getMinutes()).padStart(2, "0");
+import app from "../../firebaseConfig.js";
+import { useEffect, useReducer } from "react";
+import { getDatabase, get, ref } from "firebase/database";
+const getFormattedDateTime = () => {
+  const now = new Date();
+  const day = String(now.getDate()).padStart(2, "0");
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const year = now.getFullYear();
+  const hours = String(now.getHours()).padStart(2, "0");
+  const minutes = String(now.getMinutes()).padStart(2, "0");
 
-    return `${day}. ${month}. ${year} / ${hours}:${minutes}`;
+  return `${day}. ${month}. ${year} / ${hours}:${minutes}`;
+};
+const initialState = {
+  auction: "",
+  state: "",
+  city: "",
+  port: "",
+};
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "getData":
+      return { initialState, auction: action.payload };
+    case "auctionSelected":
+      return { ...state, state: action.payload, city: "", port: "" };
+    case "stateSelected":
+      return { ...state, city: action.payload, port: "" };
+    case "citySelected":
+      return { ...state, port: action.payload };
+    default:
+      throw new Error("Unknown action typpe");
+  }
+};
+function Form() {
+  const [{ auction, state, city, port }, dispatch] = useReducer(
+    reducer,
+    initialState
+  );
+  const date = getFormattedDateTime();
+  const getData = async (auc) => {
+    try {
+      const db = getDatabase(app);
+      const auction = ref(db, auc);
+      const snapshot = await get(auction);
+      dispatch({ type: "auctionSelected", payload: snapshot.val() });
+    } catch (error) {
+      console.log("Error updating data:", error);
+    }
+  };
+  const auctionSelectionHandle = (e) => {
+    e.preventDefault();
+    dispatch({
+      type: "getData",
+      payload: e.target.options[e.target.selectedIndex].id,
+    });
+  };
+  const stateSelectionHandle = (e) => {
+    e.preventDefault();
+    const findByText = (textToFind) => {
+      return state.find((option) => option.text === textToFind);
+    };
+    const selectedCity = findByText(e.target.value);
+    dispatch({ type: "stateSelected", payload: selectedCity.cities });
+  };
+  const citySelectionHandle = (e) => {
+    e.preventDefault();
+    const findByText = (textToFind) => {
+      return city.find((option) => option.text === textToFind);
+    };
+    const selectedPort = findByText(e.target.value);
+    dispatch({ type: "citySelected", payload: selectedPort.price });
   };
 
-  const date = getFormattedDateTime();
+  useEffect(() => {
+    if (auction) getData(auction);
+  }, [auction]);
+
   return (
     <div className={classes.main}>
       <div className={classes.date}>
@@ -30,27 +94,55 @@ function Form() {
         <div className={classes.fields}>
           <label htmlFor="auction">
             Auction:
-            <select id="auction" className={classes.select}>
-              <option>Choose</option>
+            <select
+              id="auction"
+              onChange={(e) => auctionSelectionHandle(e)}
+              className={classes.select}
+            >
+              <option id="">Choose</option>
+              <option id="copart">Copart</option>
+              <option id="iaai">IAAI</option>
+              <option id="manhaim">Manheim</option>
+              <option id="canada">Canada</option>
+              <option id="sub_copart">SUBLOT COPART</option>
+              <option id="sub_iaai">SUBLOT IAAI</option>
             </select>
           </label>
 
           <label htmlFor="state">
             State:
-            <select className={classes.select} id="state">
-              <option className={classes.option}>Choose</option>
+            <select
+              className={classes.select}
+              disabled={state ? false : true}
+              id="state"
+              onChange={(e) => stateSelectionHandle(e)}
+            >
+              {state &&
+                state.map((el) => {
+                  return <option key={el.text}>{el.text}</option>;
+                })}
+              {!state && <option>Choose</option>}
             </select>
           </label>
 
           <label htmlFor="city">
             City:
-            <select id="city" className={classes.select}>
-              <option>Choose</option>
+            <select
+              id="city"
+              onChange={(e) => citySelectionHandle(e)}
+              className={classes.select}
+              disabled={city ? false : true}
+            >
+              {!city && <option>Choose</option>}
+              {city &&
+                city.map((city) => {
+                  return <option key={city.text}>{city.text}</option>;
+                })}
             </select>
           </label>
         </div>
         <div className={classes.ports}>
-          <p>Port GA:1923$</p>
+          <p>{port}</p>
         </div>
       </div>
     </div>
