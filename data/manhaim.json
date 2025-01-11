@@ -89,12 +89,14 @@
       {
         "value": "620",
         "text": "Manheim Central Florida / Manheim Central Florida",
-        "price": "PORT GA : 1.655 $PORT FL : 1.720 $"
+        "price": "PORT GA : 1.655 $",
+        "price2": "PORT FL : 1.720 $"
       },
       {
         "value": "621",
         "text": "Manheim Daytona Beach / Manheim Daytona Beach",
-        "price": "PORT GA : 1.630 $PORT FL : 1.620 $"
+        "price": "PORT GA : 1.630 $",
+        "price2": "PORT FL : 1.620 $"
       },
       {
         "value": "622",
@@ -109,32 +111,38 @@
       {
         "value": "624",
         "text": "Manheim Jacksonville / Manheim Jacksonville",
-        "price": "PORT GA : 1.470 $PORT FL : 1.820 $"
+        "price": "PORT GA : 1.470 $",
+        "price2": "PORT FL : 1.820 $"
       },
       {
         "value": "625",
         "text": "Manheim Lakeland / Manheim Lakeland",
-        "price": "PORT GA : 1.670 $PORT FL : 1.670 $"
+        "price": "PORT GA : 1.670 $",
+        "price2": "PORT FL : 1.670 $"
       },
       {
         "value": "626",
         "text": "Manheim Orlando / Manheim Orlando",
-        "price": "PORT GA : 1.650 $PORT FL : 1.720 $"
+        "price": "PORT GA : 1.650 $",
+        "price2": "PORT FL : 1.720 $"
       },
       {
         "value": "627",
         "text": "Manheim Palm Beach / Manheim Palm Beach",
-        "price": "PORT GA : 1.690 $PORT FL : 1.610 $"
+        "price": "PORT GA : 1.690 $",
+        "price2": "PORT FL : 1.610 $"
       },
       {
         "value": "628",
         "text": "Manheim Pensacola / Manheim Pensacola",
-        "price": "PORT GA : 1.620 $PORT FL : 1.740 $"
+        "price": "PORT GA : 1.620 $",
+        "price2": "PORT FL : 1.740 $"
       },
       {
         "value": "629",
         "text": "Manheim St Pete / Manheim St Pete",
-        "price": "PORT GA : 1.670 $PORT FL : 1.670 $"
+        "price": "PORT GA : 1.670 $",
+        "price2": "PORT FL : 1.670 $"
       },
       {
         "value": "630",
@@ -317,7 +325,8 @@
       {
         "value": "648",
         "text": "Manheim Mississippi / Manheim Mississippi",
-        "price": "PORT TX : 1.995 $PORT GA : 1.670 $"
+        "price": "PORT TX : 1.995 $",
+        "price2": "PORT GA : 1.670 $"
       }
     ]
   },

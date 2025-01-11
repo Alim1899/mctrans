@@ -8,7 +8,8 @@
       {
         "value": "886",
         "text": "ADESA Moody(AL) / ADESA Birmingham (AL)",
-        "price": "PORT GA : 1.570 $PORT FL : 1.745 $"
+        "price": "PORT GA : 1.570 $",
+        "price2": "PORT FL : 1.745 $"
       },
       {
         "value": "306",
@@ -171,7 +172,8 @@
       {
         "value": "1410",
         "text": "Colorado Springs / Colorado Springs",
-        "price": "PORT NJ : 2.170 $PORT TX : 2.120 $"
+        "price": "PORT NJ : 2.170 $",
+        "price2": "PORT TX : 2.120 $"
       },
       {
         "value": "349",
@@ -232,7 +234,8 @@
       {
         "value": "1364",
         "text": "Fort Myers / Fort Myers",
-        "price": "PORT GA : 1.700 $PORT FL : 1.670 $"
+        "price": "PORT GA : 1.700 $",
+        "price2": "PORT FL : 1.670 $"
       },
       {
         "value": "365",
@@ -262,7 +265,8 @@
       {
         "value": "371",
         "text": "North Fort Myers / Fort Myers",
-        "price": "PORT NJ : 2.090 $PORT FL : 1.670 $"
+        "price": "PORT NJ : 2.090 $",
+        "price2": "PORT FL : 1.670 $"
       },
       {
         "value": "374",
@@ -685,7 +689,8 @@
       {
         "value": "1355",
         "text": "Odessa / Kansas City East",
-        "price": "PORT NJ : 1.870 $PORT GA : 1.870 $"
+        "price": "PORT NJ : 1.870 $",
+        "price2": "PORT GA : 1.870 $"
       },
       {
         "value": "706",
@@ -702,7 +707,8 @@
       {
         "value": "858",
         "text": "BYRAM / BYRAM",
-        "price": "PORT TX : 2.020 $PORT GA : 1.720 $"
+        "price": "PORT TX : 2.020 $",
+        "price2": "PORT GA : 1.720 $"
       },
       {
         "value": "478",
@@ -1335,12 +1341,14 @@
       {
         "value": "1108",
         "text": "Puyallup / Seattle (WA)",
-        "price": "PORT CA : 2.920 $PORT WA : 2.470 $"
+        "price": "PORT CA : 2.920 $",
+        "price2": "PORT WA : 2.470 $"
       },
       {
         "value": "599",
         "text": "Spokane Valley / Spokane",
-        "price": "PORT CA : 3.170 $PORT WA : 2.670 $"
+        "price": "PORT CA : 3.170 $",
+        "price2": "PORT WA : 2.670 $"
       },
       {
         "value": "761",
@@ -1350,7 +1358,8 @@
       {
         "value": "600",
         "text": "Tukwila / Seattle",
-        "price": "PORT CA : 2.920 $PORT WA : 2.470 $"
+        "price": "PORT CA : 2.920 $",
+        "price2": "PORT WA : 2.470 $"
       }
     ]
   },

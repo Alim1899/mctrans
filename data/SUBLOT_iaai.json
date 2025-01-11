@@ -380,12 +380,14 @@
       {
         "value": "1040",
         "text": "100 BEASLEY RD JACKSON, MS, 39206 / 100 BEASLEY RD JACKSON, MS, 39206",
-        "price": "PORT NJ : 1.905 $PORT GA : 1.745 $"
+        "price": "PORT NJ : 1.905 $",
+        "price2": "PORT GA : 1.745 $"
       },
       {
         "value": "1003",
         "text": "IAA Byram 7670 SIWELL ROAD BYRAM, MS, 39272 / IAA Byram 7670 SIWELL ROAD BYRAM, MS, 39272",
-        "price": "PORT NJ : 1.905 $PORT TX : 1.990 $PORT GA : 1.745 $"
+        "price": "PORT NJ : 1.905 $",
+        "price2": "PORT TX : 1.990 $"
       }
     ]
   },
@@ -749,12 +751,14 @@
       {
         "value": "1037",
         "text": "IAA Puyallup 15801 110TH AVE E PUYALLUP, WA, 98374 / IAA Puyallup 15801 110TH AVE E PUYALLUP, WA, 98374",
-        "price": "PORT CA : 2.920 $PORT WA : 2.570 $"
+        "price": "PORT CA : 2.920 $",
+        "price2": "PORT WA : 2.570 $"
       },
       {
         "value": "1041",
         "text": "IAA Puyallup 15801 110TH AVE E PUYALLUP, WA, 98374 / IAA Puyallup 15801 110TH AVE E PUYALLUP, WA, 98374",
-        "price": "PORT CA : 2.920 $PORT WA : 2.570 $"
+        "price": "PORT CA : 2.920 $",
+        "price2": "PORT WA : 2.570 $"
       },
       {
         "value": "1046",
@@ -764,12 +768,14 @@
       {
         "value": "1074",
         "text": "Offsite Vancouver IAA Offsite VANCOUVER, WA, 98682 / Offsite Vancouver IAA Offsite VANCOUVER, WA, 98682",
-        "price": "PORT CA : 2.870 $PORT WA : 2.620 $"
+        "price": "PORT CA : 2.870 $",
+        "price2": "PORT WA : 2.620 $"
       },
       {
         "value": "1076",
         "text": "Vancouver IAA offsite VANCOUVER, WA, 98682 / Vancouver IAA offsite VANCOUVER, WA, 98682",
-        "price": "PORT CA : 2.870 $PORT WA : 2.620 $"
+        "price": "PORT CA : 2.870 $",
+        "price2": "PORT WA : 2.620 $"
       }
     ]
   },

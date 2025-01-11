@@ -129,7 +129,8 @@
       {
         "value": "975",
         "text": "JB MECHANICAL 4205 W. 13TH ST PUEBLO CO 81005 / JB MECHANICAL 4205 W. 13TH ST PUEBLO CO 81005",
-        "price": "PORT TX : 2.170 $PORT CA : 2.550 $"
+        "price": "PORT TX : 2.170 $",
+        "price2": "PORT CA : 2.550 $"
       },
       {
         "value": "956",
@@ -734,7 +735,8 @@
       {
         "value": "947",
         "text": "1921 NAZARETH CHURCH RD  SPARTANBURG SC 29301 / 1921 NAZARETH CHURCH RD  SPARTANBURG SC 29301",
-        "price": "PORT NJ : 1.800 $PORT GA : 1.720 $"
+        "price": "PORT NJ : 1.800 $",
+        "price2": "PORT GA : 1.720 $"
       },
       {
         "value": "909",
@@ -891,7 +893,8 @@
       {
         "value": "1448",
         "text": "18515 PACIFIC AVE S SPANAWAY WA 98387 / 18515 PACIFIC AVE S SPANAWAY WA 98387",
-        "price": "PORT CA : 3.320 $PORT WA : 2.570 $"
+        "price": "PORT CA : 3.320 $",
+        "price2": "PORT WA : 2.570 $"
       }
     ]
   },

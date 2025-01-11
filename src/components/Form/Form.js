@@ -18,23 +18,28 @@ const initialState = {
   state: "",
   city: "",
   port: "",
+  port2: "",
 };
 const reducer = (state, action) => {
   switch (action.type) {
     case "getData":
       return { initialState, auction: action.payload };
     case "auctionSelected":
-      return { ...state, state: action.payload, city: "", port: "" };
+      return { ...state, state: action.payload, city: "", port: "", port2: "" };
     case "stateSelected":
-      return { ...state, city: action.payload, port: "" };
+      return { ...state, city: action.payload, port: "", port2: "" };
     case "citySelected":
-      return { ...state, port: action.payload };
+      return {
+        ...state,
+        port: action.payload.port,
+        port2: action.payload.port2,
+      };
     default:
       throw new Error("Unknown action typpe");
   }
 };
 function Form() {
-  const [{ auction, state, city, port }, dispatch] = useReducer(
+  const [{ auction, state, city, port, port2 }, dispatch] = useReducer(
     reducer,
     initialState
   );
@@ -67,16 +72,26 @@ function Form() {
   const citySelectionHandle = (e) => {
     e.preventDefault();
     const findByText = (textToFind) => {
-      return city.find((option) => option.text === textToFind);
+      return city?.find((option) => option.text === textToFind);
     };
     const selectedPort = findByText(e.target.value);
-    dispatch({ type: "citySelected", payload: selectedPort.price });
+    dispatch({
+      type: "citySelected",
+      payload: {
+        port: selectedPort.price || "",
+        port2: selectedPort.price2 || "",
+      },
+    });
+   
   };
 
   useEffect(() => {
     if (auction) getData(auction);
   }, [auction]);
 
+  useEffect(() => {
+    console.log(port, port2);
+  }, [port, port2]);
   return (
     <div className={classes.main}>
       <div className={classes.date}>
@@ -142,7 +157,8 @@ function Form() {
           </label>
         </div>
         <div className={classes.ports}>
-          <p>{port}</p>
+          {port && <p>{port}</p>}
+          {port2 && <p>{port2}</p>}
         </div>
       </div>
     </div>

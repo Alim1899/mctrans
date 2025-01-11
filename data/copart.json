@@ -7,7 +7,7 @@
       { "value": "", "text": "Choose" },
       {
         "value": "4",
-        "text": "Eight  Mile / MOBILE",
+        "text": "Eight Mile / MOBILE",
         "price": "PORT GA : 1.630 $"
       },
       {
@@ -198,37 +198,44 @@
       {
         "value": "45",
         "text": "Brighton / DENVER",
-        "price": "PORT TX : 2.120 $PORT CA : 2.420 $"
+        "price": "PORT TX : 2.120 $",
+        "price2": "PORT CA : 2.420 $"
       },
       {
         "value": "827",
         "text": "CLOUD / COLORADO SPRINGS CO SUBLOT",
-        "price": "PORT TX : 2.120 $PORT CA : 2.470 $"
+        "price": "PORT TX : 2.120 $",
+        "price2": "PORT CA : 2.470 $"
       },
       {
         "value": "724",
         "text": "COLORADO SPRINGS / COLORADO SPRINGS",
-        "price": "PORT TX : 2.110 $PORT CA : 2.470 $"
+        "price": "PORT TX : 2.110 $",
+        "price2": "PORT CA : 2.470 $"
       },
       {
         "value": "866",
         "text": "Denver / Denver Central",
-        "price": "PORT TX : 2.120 $PORT CA : 2.420 $"
+        "price": "PORT TX : 2.120 $",
+        "price2": "PORT CA : 2.420 $"
       },
       {
         "value": "852",
         "text": "FORT LUPTON / FORT LUPTON",
-        "price": "PORT TX : 2.230 $PORT CA : 2.570 $"
+        "price": "PORT TX : 2.230 $",
+        "price2": "PORT CA : 2.570 $"
       },
       {
         "value": "850",
         "text": "LITTLETON / CO - DENVER SOUTH",
-        "price": "PORT TX : 2.120 $PORT CA : 2.445 $"
+        "price": "PORT TX : 2.120 $",
+        "price2": "PORT CA : 2.445 $"
       },
       {
         "value": "845",
         "text": "ROYER / COLORADO SPRINGS CO SUBLOT",
-        "price": "PORT TX : 2.120 $PORT CA : 2.470 $"
+        "price": "PORT TX : 2.120 $",
+        "price2": "PORT CA : 2.470 $"
       }
     ]
   },
@@ -1403,22 +1410,26 @@
       {
         "value": "290",
         "text": "Airway Heights / SPOKANE",
-        "price": "PORT CA : 3.170 $PORT WA : 2.670 $"
+        "price": "PORT CA : 3.170 $",
+        "price2": "PORT WA : 2.670 $"
       },
       {
         "value": "291",
         "text": "Arlington / NORTH SEATTLE",
-        "price": "PORT CA : 2.920 $PORT WA : 2.570 $"
+        "price": "PORT CA : 2.920 $",
+        "price2": "PORT WA : 2.570 $"
       },
       {
         "value": "292",
         "text": "Graham / GRAHAM",
-        "price": "PORT CA : 2.920 $PORT WA : 2.445 $"
+        "price": "PORT CA : 2.920 $",
+        "price2": "PORT WA : 2.445 $"
       },
       {
         "value": "294",
         "text": "Pasco / PASCO",
-        "price": "PORT CA : 2.920 $PORT WA : 2.570 $"
+        "price": "PORT CA : 2.920 $",
+        "price2": "PORT WA : 2.570 $"
       }
     ]
   },
