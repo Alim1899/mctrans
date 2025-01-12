@@ -82,7 +82,7 @@
   grid-template-rows: 15% 15% 60%;
   margin-top: 40px;
   height: 100%;
-  
+  min-height: 450px;
 }
 .content > div {
   width: 85%;
@@ -108,11 +108,9 @@
   border: 1px solid lightgray;
 }
 .titleList {
- height: 100%;
-
-
+  height: 100%;
 }
-.list{
+.list {
   overflow: auto;
   background-color: #efefee;
   min-height: 50px;
@@ -120,15 +118,15 @@
   width: 96%;
   margin: auto;
 }
-.list>p{
+.list > p {
   font-size: 9px;
   color: #094f73;
   padding: 10px;
   text-align: left;
-  }
-  .list>p>span{
-   font-weight: bold;
-    }
+}
+.list > p > span {
+  font-weight: bold;
+}
 
 @media screen and (max-width: 900px) {
   .fields > label {
@@ -153,9 +151,8 @@
     padding-bottom: 100px;
   }
   .content {
-   
     min-height: 350px;
-    width: clamp(200px,90vw,700px);
+    width: clamp(200px, 90vw, 700px);
     margin: auto;
   }
   .content > div > button {
@@ -168,27 +165,12 @@
     outline: none;
     color: #fff;
     position: absolute;
-  
-
   }
   .titleInput {
-
     height: 34px;
     border: 1px solid lightgray;
   }
-
-  .titleList{
-
-  }
-  .list {
- 
- margin: auto;
-
-  }
-
 }
-
-
 
 ::-webkit-scrollbar {
   width: 3px;
