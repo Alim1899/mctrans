@@ -6,7 +6,7 @@ import ua from "../../assets/flag-ua.png";
 import ky from "../../assets/flag-ky.png";
 import kz from "../../assets/flag-kz.png";
 import classes from "./Background.module.css";
-export default function Background() {
+export default function Background({ changeForm, showForm }) {
   return (
     <div className={classes.main}>
       <div className={classes.background}>
@@ -16,17 +16,23 @@ export default function Background() {
       <div className={classes.head}>
         <h1>International Shipping Company</h1>
         <div className={classes.flags}>
-<img className={classes.icon} src={ge} alt="ge"></img>
-<img className={classes.icon} src={ua} alt="ua"></img>
-<img className={classes.icon} src={az} alt="az"></img>
-<img className={classes.icon} src={am} alt="am"></img>
-<img className={classes.icon} src={ky} alt="ky"></img>
-<img className={classes.icon} src={kz} alt="kz"></img>
+          <img className={classes.icon} src={ge} alt="ge"></img>
+          <img className={classes.icon} src={ua} alt="ua"></img>
+          <img className={classes.icon} src={az} alt="az"></img>
+          <img className={classes.icon} src={am} alt="am"></img>
+          <img className={classes.icon} src={ky} alt="ky"></img>
+          <img className={classes.icon} src={kz} alt="kz"></img>
         </div>
       </div>
-      <div className={classes.button}>
-        <h2>საბუთის შემოწმება</h2>
-        <h2>Проверка документов</h2>
+      <div onClick={changeForm} className={classes.button}>
+        {showForm ? (
+          <>
+            <h2 className={classes.check}>საბუთის შემოწმება</h2>
+            <h2 className={classes.check}>Проверка документов</h2>
+          </>
+        ) : (
+          <h2 className={classes.calc}>CALCULATOR</h2>
+        )}
       </div>
     </div>
   );

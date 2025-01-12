@@ -37,16 +37,19 @@
 .fields {
   display: flex;
   flex-direction: column;
-  
 }
 .fields > label {
   width: 360px;
   display: flex;
   justify-content: space-between;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
+  font-family: "Helvetica Neue", "sans-serif";
+  font-weight: 500;
   margin-top: 22px;
-  
+  color: #284c61;
+  font-size: 14px;
+  padding: 0;
+
+  align-items: center;
 }
 .select {
   width: 290px;
@@ -54,13 +57,12 @@
   outline: none;
   border: 1px solid #cfc7c7;
   padding: 6px;
-  
 }
 .ports {
   margin-top: 70px;
   width: 290px;
   min-height: 60px;
-  
+
   margin-left: 72px;
   background: #245d8133;
 }
@@ -72,36 +74,125 @@
   width: 90%;
   font-weight: 500;
   margin-left: 5%;
-  padding: 5px 0;
-  font-family:monospace;
- 
+  padding: 2px 5px;
 }
 
-@media screen and (max-width:900px) {
+.content {
+  display: grid;
+  grid-template-rows: 15% 15% 60%;
+  margin-top: 40px;
+  height: 100%;
+  
+}
+.content > div {
+  width: 85%;
+  text-align: center;
+  margin-top: 20px;
+  margin: auto;
+}
+.content > div > button {
+  height: 38px;
+  width: 50px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", "sans-serif";
+  background-color: #337ab7;
+  border: none;
+  outline: none;
+  color: #fff;
+  position: absolute;
+  margin-left: -50px;
+}
+.titleInput {
+  width: 95%;
+  height: 34px;
+  border: 1px solid lightgray;
+}
+.titleList {
+ height: 100%;
 
- 
- 
+
+}
+.list{
+  overflow: auto;
+  background-color: #efefee;
+  min-height: 50px;
+  max-height: 200px;
+  width: 96%;
+  margin: auto;
+}
+.list>p{
+  font-size: 9px;
+  color: #094f73;
+  padding: 10px;
+  text-align: left;
+  }
+  .list>p>span{
+   font-weight: bold;
+    }
+
+@media screen and (max-width: 900px) {
   .fields > label {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 25px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+    font-family: "Helvetica Neue", "sans-serif";
+    font-weight: 500;
   }
   .select {
-    width: clamp(200px,85vw,450px);
-    height: 27px;
+    width: clamp(200px, 85vw, 450px);
     outline: none;
-    border: 1px solid #9b9da0;
     padding: 6px;
   }
   .ports {
-   margin: unset;
-   margin-top: 70px;
+    margin: unset;
+    margin-top: 70px;
     background: #245d8133;
   }
-  .main{
+  .main {
     padding-bottom: 100px;
   }
+  .content {
+   
+    min-height: 350px;
+    width: clamp(200px,90vw,700px);
+    margin: auto;
+  }
+  .content > div > button {
+    height: 38px;
+    width: 50px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "sans-serif";
+    background-color: #337ab7;
+    border: none;
+    outline: none;
+    color: #fff;
+    position: absolute;
+  
+
+  }
+  .titleInput {
+
+    height: 34px;
+    border: 1px solid lightgray;
+  }
+
+  .titleList{
+
+  }
+  .list {
+ 
+ margin: auto;
+
+  }
+
+}
+
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000;
 }
