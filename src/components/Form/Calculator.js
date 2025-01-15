@@ -29,8 +29,8 @@ const reducer = (state, action) => {
       return { ...state, state: action.payload, city: "", port: "", port2: "" };
     case "stateSelected":
       return { ...state, city: action.payload, port: "", port2: "" };
-      case "resetState":
-        return { ...state, city:"", port: "", port2: "" };
+    case "resetState":
+      return { ...state, city: "", port: "", port2: "" };
     case "citySelected":
       return {
         ...state,
@@ -52,7 +52,12 @@ function Calculator() {
       const db = getDatabase(app);
       const auction = ref(db, auc);
       const snapshot = await get(auction);
-      dispatch({ type: "auctionSelected", payload: Object.entries(snapshot.val()) });
+      const data = snapshot.val();
+      console.log("Fetched data:", data);
+      if (!data || typeof data !== "object") {
+        throw new Error("Invalid data structure");
+      }
+      dispatch({ type: "auctionSelected", payload: Object.entries(data) });
     } catch (error) {
       console.log("Error updating data:", error);
     }
@@ -71,7 +76,9 @@ function Calculator() {
     };
     const selectedCity = findByText(e.target.value);
     console.log(selectedCity);
-    selectedCity?dispatch({ type: "stateSelected", payload: selectedCity[1].cities }):dispatch({type:'resetState'})
+    selectedCity
+      ? dispatch({ type: "stateSelected", payload: selectedCity[1].cities })
+      : dispatch({ type: "resetState" });
   };
   const citySelectionHandle = (e) => {
     e.preventDefault();
@@ -132,12 +139,12 @@ function Calculator() {
               id="state"
               onChange={(e) => stateSelectionHandle(e)}
             >
-            <option value="">Choose</option>
+              <option value="">Choose</option>
               {state &&
+                Array.isArray(state) &&
                 state.map((el) => {
                   return <option key={el[1].text}>{el[1].text}</option>;
                 })}
-              {!state && <option>Choose</option>}
             </select>
           </label>
 
